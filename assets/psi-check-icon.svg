@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <rect width="256" height="256" rx="56" fill="#0D1117"/>
+  <!-- Speedometer background track (240° arc) -->
+  <path d="M 60.45 177 A 78 78 0 1 1 195.55 177"
+        stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="20" stroke-linecap="round"/>
+  <!-- Active performance arc (PageSpeed green) -->
+  <path d="M 60.45 177 A 78 78 0 1 1 196.87 101.38"
+        stroke="#0CCE6B" stroke-width="20" stroke-linecap="round"/>
+  <!-- Needle & center hub -->
+  <path d="M 128 138 L 175.68 112.65"
+        stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="128" cy="138" r="16" fill="#FFFFFF"/>
+  <circle cx="128" cy="138" r="7" fill="#0CCE6B"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" fill="none">
+  <!-- Speedometer mark -->
+  <path d="M 222.3 161 A 62 62 0 1 1 329.7 161"
+        stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 222.3 161 A 62 62 0 1 1 330.7 100.9"
+        stroke="#0CCE6B" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 276 130 L 314.8 109.3"
+        stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="276" cy="130" r="13" fill="#FFFFFF"/>
+  <circle cx="276" cy="130" r="5.5" fill="#0CCE6B"/>
+
+  <!-- Wordmark -->
+  <text x="376" y="168" fill="#FFFFFF"
+        font-family="'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="148" font-weight="900" letter-spacing="-6">psi-check</text>
+</svg>

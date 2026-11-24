@@ -1,0 +1,8 @@
+**/.venv/
+**/node_modules/
+**/__pycache__/
+*.pyc
+**/runs/
+reports/
+apikey.md
+.DS_Store
