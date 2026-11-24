@@ -195,6 +195,9 @@ and never copy-paste 50 PageSpeed scores into Excel by hand again.”</em></p>
 
 <hr>
 
-## License
+## Disclaimer & License
 
-MIT
+- **Responsible use:** `psi-web` automates the `pagespeed.web.dev` web UI in a local browser. Users are responsible for complying with the Google Terms of Service, keeping concurrency low, and auditing only websites they own or have permission to test. For strictly API-based usage, use `psi-api` with your own Google API key under the Google APIs Terms of Service.
+- **Trademarks:** This project is an independent open-source tool and is not affiliated with, endorsed by, or sponsored by Google LLC. Google, PageSpeed Insights, Chrome, Lighthouse, and Core Web Vitals are trademarks of Google LLC.
+
+MIT: [LICENSE](LICENSE)

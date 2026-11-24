@@ -63,3 +63,7 @@ One JSON object per line written to `<out_jsonl>`:
 
 - **`Unable to resolve`**: DNS failure for the target domain; fails immediately without retrying.
 - **All URLs time out or fail**: `pagespeed.web.dev` DOM may have changed. Check selector `.lh-exp-gauge__percentage` and report path pattern in [scripts/psi_web.mjs](scripts/psi_web.mjs). Do not replace `page.evaluate` polling with `page.waitForFunction` (blocked by CSP).
+
+## Responsible Use
+
+This skill automates the `pagespeed.web.dev` web interface in a local Chrome instance. Keep concurrency low (default `3`), audit only URLs you own or have permission to test, and ensure your usage complies with applicable Google Terms of Service. For strictly API-based audits, use `psi-api` with your own Google PageSpeed Insights API key.
